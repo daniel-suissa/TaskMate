@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431FA3251D84F8E2001B73AD /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431FA3241D84F8E2001B73AD /* TaskTableViewCell.swift */; };
+		43C033B61D84609F00A008E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C033B51D84609F00A008E1 /* AppDelegate.swift */; };
+		43C033B81D84609F00A008E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C033B71D84609F00A008E1 /* ViewController.swift */; };
+		43C033BB1D84609F00A008E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C033B91D84609F00A008E1 /* Main.storyboard */; };
+		43C033BD1D84609F00A008E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C033BC1D84609F00A008E1 /* Assets.xcassets */; };
+		43C033C01D84609F00A008E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C033BE1D84609F00A008E1 /* LaunchScreen.storyboard */; };
+		43C033CB1D84609F00A008E1 /* TaskMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C033CA1D84609F00A008E1 /* TaskMateTests.swift */; };
+		43C033D61D84609F00A008E1 /* TaskMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C033D51D84609F00A008E1 /* TaskMateUITests.swift */; };
+		43C033E91D84C89200A008E1 /* GoogleAPIClient in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C033E81D84C89200A008E1 /* GoogleAPIClient */; };
+		4819648538195F4E9FA2BF29 /* Pods_TaskMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC7D146687B36B1380AF511 /* Pods_TaskMate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43C033C71D84609F00A008E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C033AA1D84609F00A008E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C033B11D84609F00A008E1;
+			remoteInfo = TaskMate;
+		};
+		43C033D21D84609F00A008E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C033AA1D84609F00A008E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C033B11D84609F00A008E1;
+			remoteInfo = TaskMate;
+		};
+		43CB768A1D8529F600675AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CB76831D8529F600675AB4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C9C7BC1A3CB212A1E5B63428E00DE598;
+			remoteInfo = GoogleAPIClient;
+		};
+		43CB768C1D8529F600675AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CB76831D8529F600675AB4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA5426A776A22931EB8366F3313F0FBE;
+			remoteInfo = GTMOAuth2;
+		};
+		43CB768E1D8529F600675AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CB76831D8529F600675AB4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0ADD1194E6B367C030460A19A5FA7D8A;
+			remoteInfo = GTMSessionFetcher;
+		};
+		43CB76901D8529F600675AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43CB76831D8529F600675AB4 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B5E8E9FC9A0F2BF912ACFE462DE6817;
+			remoteInfo = "Pods-TaskMate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E269D9674F9AC85C61CEEF3 /* Pods-TaskMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMate/Pods-TaskMate.debug.xcconfig"; sourceTree = "<group>"; };
+		431FA3191D84F18F001B73AD /* TaskMate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskMate-Bridging-Header.h"; sourceTree = "<group>"; };
+		431FA3241D84F8E2001B73AD /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		43C033B21D84609F00A008E1 /* TaskMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C033B51D84609F00A008E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43C033B71D84609F00A008E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43C033BA1D84609F00A008E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C033BC1D84609F00A008E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C033BF1D84609F00A008E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43C033C11D84609F00A008E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C033C61D84609F00A008E1 /* TaskMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C033CA1D84609F00A008E1 /* TaskMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMateTests.swift; sourceTree = "<group>"; };
+		43C033CC1D84609F00A008E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C033D11D84609F00A008E1 /* TaskMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C033D51D84609F00A008E1 /* TaskMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMateUITests.swift; sourceTree = "<group>"; };
+		43C033D71D84609F00A008E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C033E81D84C89200A008E1 /* GoogleAPIClient */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoogleAPIClient; path = Pods/GoogleAPIClient; sourceTree = "<group>"; };
+		43CB76831D8529F600675AB4 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		5964D2362F2CF17F83B9DB96 /* Pods-TaskMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskMate/Pods-TaskMate.release.xcconfig"; sourceTree = "<group>"; };
+		EFC7D146687B36B1380AF511 /* Pods_TaskMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C033AF1D84609F00A008E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C033E91D84C89200A008E1 /* GoogleAPIClient in Frameworks */,
+				4819648538195F4E9FA2BF29 /* Pods_TaskMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C033C31D84609F00A008E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C033CE1D84609F00A008E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C033A91D84609F00A008E1 = {
+			isa = PBXGroup;
+			children = (
+				43C033B41D84609F00A008E1 /* TaskMate */,
+				43C033C91D84609F00A008E1 /* TaskMateTests */,
+				43C033D41D84609F00A008E1 /* TaskMateUITests */,
+				43C033B31D84609F00A008E1 /* Products */,
+				D2321BA0597B6AC59062D8AD /* Pods */,
+				97855D3BFBA0C267A3C255CD /* Frameworks */,
+				431FA3191D84F18F001B73AD /* TaskMate-Bridging-Header.h */,
+				43CB76831D8529F600675AB4 /* Pods.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		43C033B31D84609F00A008E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C033B21D84609F00A008E1 /* TaskMate.app */,
+				43C033C61D84609F00A008E1 /* TaskMateTests.xctest */,
+				43C033D11D84609F00A008E1 /* TaskMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C033B41D84609F00A008E1 /* TaskMate */ = {
+			isa = PBXGroup;
+			children = (
+				43C033B51D84609F00A008E1 /* AppDelegate.swift */,
+				43C033B71D84609F00A008E1 /* ViewController.swift */,
+				43C033B91D84609F00A008E1 /* Main.storyboard */,
+				43C033BC1D84609F00A008E1 /* Assets.xcassets */,
+				43C033BE1D84609F00A008E1 /* LaunchScreen.storyboard */,
+				43C033C11D84609F00A008E1 /* Info.plist */,
+				431FA3241D84F8E2001B73AD /* TaskTableViewCell.swift */,
+			);
+			path = TaskMate;
+			sourceTree = "<group>";
+		};
+		43C033C91D84609F00A008E1 /* TaskMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				43C033CA1D84609F00A008E1 /* TaskMateTests.swift */,
+				43C033CC1D84609F00A008E1 /* Info.plist */,
+			);
+			path = TaskMateTests;
+			sourceTree = "<group>";
+		};
+		43C033D41D84609F00A008E1 /* TaskMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43C033D51D84609F00A008E1 /* TaskMateUITests.swift */,
+				43C033D71D84609F00A008E1 /* Info.plist */,
+			);
+			path = TaskMateUITests;
+			sourceTree = "<group>";
+		};
+		43CB76841D8529F600675AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CB768B1D8529F600675AB4 /* GoogleAPIClient.framework */,
+				43CB768D1D8529F600675AB4 /* GTMOAuth2.framework */,
+				43CB768F1D8529F600675AB4 /* GTMSessionFetcher.framework */,
+				43CB76911D8529F600675AB4 /* Pods_TaskMate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97855D3BFBA0C267A3C255CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C033E81D84C89200A008E1 /* GoogleAPIClient */,
+				EFC7D146687B36B1380AF511 /* Pods_TaskMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2321BA0597B6AC59062D8AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E269D9674F9AC85C61CEEF3 /* Pods-TaskMate.debug.xcconfig */,
+				5964D2362F2CF17F83B9DB96 /* Pods-TaskMate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C033B11D84609F00A008E1 /* TaskMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C033DA1D84609F00A008E1 /* Build configuration list for PBXNativeTarget "TaskMate" */;
+			buildPhases = (
+				F84EA54BFFFAB47843F94F7A /* [CP] Check Pods Manifest.lock */,
+				43C033AE1D84609F00A008E1 /* Sources */,
+				43C033AF1D84609F00A008E1 /* Frameworks */,
+				43C033B01D84609F00A008E1 /* Resources */,
+				B9B4ADEF64DFFBA1BB7C99C6 /* [CP] Embed Pods Frameworks */,
+				EA90EF1BF4713CE0C4132658 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskMate;
+			productName = TaskMate;
+			productReference = 43C033B21D84609F00A008E1 /* TaskMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43C033C51D84609F00A008E1 /* TaskMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C033DD1D84609F00A008E1 /* Build configuration list for PBXNativeTarget "TaskMateTests" */;
+			buildPhases = (
+				43C033C21D84609F00A008E1 /* Sources */,
+				43C033C31D84609F00A008E1 /* Frameworks */,
+				43C033C41D84609F00A008E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C033C81D84609F00A008E1 /* PBXTargetDependency */,
+			);
+			name = TaskMateTests;
+			productName = TaskMateTests;
+			productReference = 43C033C61D84609F00A008E1 /* TaskMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43C033D01D84609F00A008E1 /* TaskMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C033E01D84609F00A008E1 /* Build configuration list for PBXNativeTarget "TaskMateUITests" */;
+			buildPhases = (
+				43C033CD1D84609F00A008E1 /* Sources */,
+				43C033CE1D84609F00A008E1 /* Frameworks */,
+				43C033CF1D84609F00A008E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C033D31D84609F00A008E1 /* PBXTargetDependency */,
+			);
+			name = TaskMateUITests;
+			productName = TaskMateUITests;
+			productReference = 43C033D11D84609F00A008E1 /* TaskMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C033AA1D84609F00A008E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Suissa";
+				TargetAttributes = {
+					43C033B11D84609F00A008E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					43C033C51D84609F00A008E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43C033B11D84609F00A008E1;
+					};
+					43C033D01D84609F00A008E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43C033B11D84609F00A008E1;
+					};
+				};
+			};
+			buildConfigurationList = 43C033AD1D84609F00A008E1 /* Build configuration list for PBXProject "TaskMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C033A91D84609F00A008E1;
+			productRefGroup = 43C033B31D84609F00A008E1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43CB76841D8529F600675AB4 /* Products */;
+					ProjectRef = 43CB76831D8529F600675AB4 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				43C033B11D84609F00A008E1 /* TaskMate */,
+				43C033C51D84609F00A008E1 /* TaskMateTests */,
+				43C033D01D84609F00A008E1 /* TaskMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43CB768B1D8529F600675AB4 /* GoogleAPIClient.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleAPIClient.framework;
+			remoteRef = 43CB768A1D8529F600675AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CB768D1D8529F600675AB4 /* GTMOAuth2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMOAuth2.framework;
+			remoteRef = 43CB768C1D8529F600675AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CB768F1D8529F600675AB4 /* GTMSessionFetcher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcher.framework;
+			remoteRef = 43CB768E1D8529F600675AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43CB76911D8529F600675AB4 /* Pods_TaskMate.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_TaskMate.framework;
+			remoteRef = 43CB76901D8529F600675AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C033B01D84609F00A008E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C033C01D84609F00A008E1 /* LaunchScreen.storyboard in Resources */,
+				43C033BD1D84609F00A008E1 /* Assets.xcassets in Resources */,
+				43C033BB1D84609F00A008E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C033C41D84609F00A008E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C033CF1D84609F00A008E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9B4ADEF64DFFBA1BB7C99C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMate/Pods-TaskMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA90EF1BF4713CE0C4132658 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskMate/Pods-TaskMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84EA54BFFFAB47843F94F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C033AE1D84609F00A008E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C033B81D84609F00A008E1 /* ViewController.swift in Sources */,
+				43C033B61D84609F00A008E1 /* AppDelegate.swift in Sources */,
+				431FA3251D84F8E2001B73AD /* TaskTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C033C21D84609F00A008E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C033CB1D84609F00A008E1 /* TaskMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C033CD1D84609F00A008E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C033D61D84609F00A008E1 /* TaskMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43C033C81D84609F00A008E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C033B11D84609F00A008E1 /* TaskMate */;
+			targetProxy = 43C033C71D84609F00A008E1 /* PBXContainerItemProxy */;
+		};
+		43C033D31D84609F00A008E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C033B11D84609F00A008E1 /* TaskMate */;
+			targetProxy = 43C033D21D84609F00A008E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43C033B91D84609F00A008E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C033BA1D84609F00A008E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43C033BE1D84609F00A008E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C033BF1D84609F00A008E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C033D81D84609F00A008E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43C033D91D84609F00A008E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C033DB1D84609F00A008E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E269D9674F9AC85C61CEEF3 /* Pods-TaskMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleAPIClient\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = TaskMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = challenges.TaskMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskMate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43C033DC1D84609F00A008E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5964D2362F2CF17F83B9DB96 /* Pods-TaskMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleAPIClient\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = TaskMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = challenges.TaskMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaskMate-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		43C033DE1D84609F00A008E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaskMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = challenges.TaskMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskMate.app/TaskMate";
+			};
+			name = Debug;
+		};
+		43C033DF1D84609F00A008E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaskMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = challenges.TaskMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskMate.app/TaskMate";
+			};
+			name = Release;
+		};
+		43C033E11D84609F00A008E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaskMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = challenges.TaskMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaskMate;
+			};
+			name = Debug;
+		};
+		43C033E21D84609F00A008E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaskMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = challenges.TaskMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaskMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C033AD1D84609F00A008E1 /* Build configuration list for PBXProject "TaskMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C033D81D84609F00A008E1 /* Debug */,
+				43C033D91D84609F00A008E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C033DA1D84609F00A008E1 /* Build configuration list for PBXNativeTarget "TaskMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C033DB1D84609F00A008E1 /* Debug */,
+				43C033DC1D84609F00A008E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C033DD1D84609F00A008E1 /* Build configuration list for PBXNativeTarget "TaskMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C033DE1D84609F00A008E1 /* Debug */,
+				43C033DF1D84609F00A008E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C033E01D84609F00A008E1 /* Build configuration list for PBXNativeTarget "TaskMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C033E11D84609F00A008E1 /* Debug */,
+				43C033E21D84609F00A008E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C033AA1D84609F00A008E1 /* Project object */;
+}
